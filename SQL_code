@@ -11,7 +11,7 @@ Code may contain minor errors. I have removed potentially sensitive data from th
 WITH CTE_preprocess AS (
 	SELECT 
 		EMP_FILE_NUMBER
-	    ,EMP_METRIC_DATE
+	    	,EMP_METRIC_DATE
 		,EMP_METRIC_DATE_YYYYMM
 		,EMP_DIM_ETHNICITY
 		,EMP_DIM_GENERATION
@@ -25,7 +25,7 @@ WITH CTE_preprocess AS (
 		ON table2.EMP_FILE_NUMBER = table2.EMP_FILE_NUMBER
 	GROUP BY 
 		EMP_FILE_NUMBER
-	    ,EMP_METRIC_DATE
+	    	,EMP_METRIC_DATE
 		,EMP_METRIC_DATE_YYYYMM
 		,EMP_DIM_ETHNICITY
 		,EMP_DIM_GENERATION
