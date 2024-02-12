@@ -2,6 +2,9 @@
 /*
 Example of a table that addresses non-additive measures by precomputing them for each combination of dimensions 
     + creating a field for table partitioning for performing or as filter for dashboard to choose a certain aggregation level. 
+
+Code may contain minor errors. I have removed potentially sensitive data from the original code.
+
 */
 
 
